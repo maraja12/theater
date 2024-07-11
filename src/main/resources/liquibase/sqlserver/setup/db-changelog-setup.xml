@@ -1,0 +1,46 @@
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                        http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd">
+
+
+    <!-- create table customer-->
+    <changeSet id="create-customer" author="marija">
+        <sqlFile path="ddl/create-customer.sql" relativeToChangelogFile="true"/>
+    </changeSet>
+
+    <!-- create table actor-->
+    <changeSet id="create-actor" author="marija">
+        <sqlFile path="ddl/create-actor.sql" relativeToChangelogFile="true"/>
+    </changeSet>
+
+    <!-- create table director-->
+    <changeSet id="create-director" author="marija">
+        <sqlFile path="ddl/create-director.sql" relativeToChangelogFile="true"/>
+    </changeSet>
+
+    <!-- create table writer-->
+    <changeSet id="create-writer" author="marija">
+        <sqlFile path="ddl/create-writer.sql" relativeToChangelogFile="true"/>
+    </changeSet>
+
+    <!-- insert into customer-->
+    <changeSet id="init-customer" author="marija">
+        <sqlFile path="dml/init-customer.sql" relativeToChangelogFile="true"/>
+    </changeSet>
+
+    <!-- insert into actor-->
+    <changeSet id="init-actor" author="marija">
+        <sqlFile path="dml/init-actor.sql" relativeToChangelogFile="true"/>
+    </changeSet>
+
+    <!-- insert into director-->
+    <changeSet id="init-director" author="marija">
+        <sqlFile path="dml/init-director.sql" relativeToChangelogFile="true"/>
+    </changeSet>
+
+    <!-- insert into writer-->
+    <changeSet id="init-writer" author="marija">
+        <sqlFile path="dml/init-writer.sql" relativeToChangelogFile="true"/>
+    </changeSet>
+</databaseChangeLog>
