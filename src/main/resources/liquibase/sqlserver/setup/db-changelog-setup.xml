@@ -24,6 +24,26 @@
         <sqlFile path="ddl/create-writer.sql" relativeToChangelogFile="true"/>
     </changeSet>
 
+    <!-- create table invoice-->
+    <changeSet id="create-invoice" author="marija">
+        <sqlFile path="ddl/create-invoice.sql" relativeToChangelogFile="true"/>
+    </changeSet>
+
+    <!-- create table show-->
+    <changeSet id="create-show" author="marija">
+        <sqlFile path="ddl/create-show.sql" relativeToChangelogFile="true"/>
+    </changeSet>
+
+    <!-- create table engagement-->
+    <changeSet id="create-engagement" author="marija">
+        <sqlFile path="ddl/create-engagement.sql" relativeToChangelogFile="true"/>
+    </changeSet>
+
+    <!-- create table ticket-->
+    <changeSet id="create-ticket" author="marija">
+        <sqlFile path="ddl/create-ticket.sql" relativeToChangelogFile="true"/>
+    </changeSet>
+
     <!-- insert into customer-->
     <changeSet id="init-customer" author="marija">
         <sqlFile path="dml/init-customer.sql" relativeToChangelogFile="true"/>
@@ -42,5 +62,25 @@
     <!-- insert into writer-->
     <changeSet id="init-writer" author="marija">
         <sqlFile path="dml/init-writer.sql" relativeToChangelogFile="true"/>
+    </changeSet>
+
+    <!-- insert into invoice-->
+    <changeSet id="init-invoice" author="marija">
+        <sqlFile path="dml/init-invoice.sql" relativeToChangelogFile="true"/>
+    </changeSet>
+
+    <!-- insert into show-->
+    <changeSet id="init-show" author="marija">
+        <sqlFile path="dml/init-show.sql" relativeToChangelogFile="true"/>
+    </changeSet>
+
+    <!-- insert into engagement-->
+    <changeSet id="init-engagement" author="marija">
+        <sqlFile path="dml/init-engagement.sql" relativeToChangelogFile="true"/>
+    </changeSet>
+
+    <!-- insert into ticket-->
+    <changeSet id="init-ticket" author="marija">
+        <sqlFile path="dml/init-ticket.sql" relativeToChangelogFile="true"/>
     </changeSet>
 </databaseChangeLog>
