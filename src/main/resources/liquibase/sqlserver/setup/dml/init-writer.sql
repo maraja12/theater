@@ -1,2 +1,2 @@
-insert into writer(name, surname) values('Vilijam', 'Sekspir');
-insert into writer(name, surname) values('Ljubomir', 'Simovic');
+insert into writer(name, surname) values('Lazar', 'Bodroza');
+insert into writer(name, surname) values('Gorcin', 'Stojanovic');
